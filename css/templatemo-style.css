@@ -1118,3 +1118,46 @@ header {
   cursor: pointer;
   font-size: 16px;
 }
+
+.my-team {
+  margin-top: 40px; /* Adjust as needed */
+  text-align: center;
+}
+
+.my-team h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.my-team p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.team-members {
+  display: flex;
+  justify-content: center;
+  gap: 20px; /* Adjust spacing between team members */
+}
+
+.team-member {
+  text-align: center;
+}
+
+.team-member img {
+  width: 150px; /* Adjust size as needed */
+  height: 150px; /* Adjust size as needed */
+  border-radius: 50%; /* Make the image circular */
+  margin-bottom: 10px;
+}
+
+.team-member h3 {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.team-member p {
+  font-size: 14px;
+  color: #666; /* Adjust color as needed */
+}
