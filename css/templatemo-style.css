@@ -480,7 +480,7 @@ header {
 
 #featured .owl-dots .owl-dot span  {
   width: 12px;
-  height: 12px;
+  height: 10px;
   background-color: #cdcdcd!important;
   display: inline-block;
   border-radius: 50%;
@@ -511,21 +511,32 @@ header {
 }
 
 #featured .owl-nav .owl-next span,
+#featured .owl-nav .owl-next span,
 #featured .owl-nav .owl-prev span {
     outline: none;
     width: 50px;
     height: 50px;
     display: inline-block;
     text-align: center;
-    line-height: 42px; /* Adjust if needed */
+    line-height: 40px; /* Adjust if needed */
     background-color: #eee;
     color: #232323;
     font-size: 42px;
     transition: all 0.5s;
     margin-top: 40px; /* Increase this value */
     position: relative; /* Ensure position is set */
-    top: 20px; /* Increase this value as needed */
+    top: 35px; /* Increase this value as needed */
 }
+
+#featured .owl-nav .owl-prev span {
+    left: 10px; /* Adjust this value to move the previous button right */
+}
+
+#featured .owl-nav .owl-next span {
+    right: 10px; /* Adjust this value to move the next button right */
+}
+
+
 
 #featured .owl-nav span:hover {
   background-color: #6CC17A;
@@ -536,6 +547,7 @@ header {
   text-align: left;
   position: relative;
   z-index: 10;
+  top: 20px;
 }
 
 #featured .item .image {
