@@ -508,17 +508,21 @@ header {
   margin-right: 10px;
 }
 
-#featured .owl-nav .owl-next span, #featured .owl-nav .owl-prev span {
-  outline: none;
-  width: 50px;
-  height: 50px;
-  display: inline-block;
-  text-align: center;
-  line-height: 42px;
-  background-color: #eee;
-  color: #232323;
-  font-size: 42px;
-  transition: all 0.5s;
+#featured .owl-nav .owl-next span,
+#featured .owl-nav .owl-prev span {
+    outline: none;
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    text-align: center;
+    line-height: 42px; /* Adjust if needed */
+    background-color: #eee;
+    color: #232323;
+    font-size: 42px;
+    transition: all 0.5s;
+    margin-top: 40px; /* Increase this value */
+    position: relative; /* Ensure position is set */
+    top: 20px; /* Increase this value as needed */
 }
 
 #featured .owl-nav span:hover {
