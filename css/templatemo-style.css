@@ -525,7 +525,7 @@ header {
     transition: all 0.5s;
     margin-top: 40px; /* Increase this value */
     position: relative; /* Ensure position is set */
-    top: 35px; /* Increase this value as needed */
+    top: 50px; /* Increase this value as needed */
 }
 
 #featured .owl-nav .owl-prev span {
@@ -547,7 +547,7 @@ header {
   text-align: left;
   position: relative;
   z-index: 10;
-  top: 20px;
+  top: 50px;
 }
 
 #featured .item .image {
