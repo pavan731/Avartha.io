@@ -585,29 +585,51 @@ header {
 }
 
 #featured .item .text-content {
-  padding-top: 20px;
+  padding-top: 100px;
   background-color: #fff;
   position: relative;
   z-index: 10;
 }
 
+#featured .item .text-content {
+  position: relative;
+}
+
 #featured .item .text-content h4 {
-  margin-top: 0px;
-  margin-bottom: 5px;
+  position: absolute;
+  top: 0; /* Adjust this value as needed */
+  margin-top: 50;
+  margin-bottom: 50; /* Remove bottom margin */
   font-size: 21px;
   font-weight: 600;
   color: #232323;
   letter-spacing: 0.5px;
 }
 
+#featured .item {
+  padding: 0; /* Remove padding */
+  margin: 0;  /* Remove margin */
+}
+
+
 #featured .item .text-content span {
   display: inline-block;
-  font-size: 15px;
-  font-weight: 600;
+  font-size: 13px;
+  font-weight: 400;
   color: #7a7a7a;
   letter-spacing: 0.5px;
-  margin-bottom: 12.5px;
+  margin-bottom: 18px;
+  margin-top: 10; /* Ensure no negative margin */
+  position: relative; /* This allows using 'top' */
+  top: -50px; /* Adjust this value as needed to bring it up */
+  line-height: 1;
+  margin-bottom: 20px; /* Adjust if needed */
+  margin-top: 40px; /* Optional: use a small negative value for finer adjustment */
+  padding: 0; /* Remove padding */
+  border: none; /* Remove border */
 }
+
+
 
 
 
