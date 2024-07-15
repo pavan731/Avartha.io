@@ -225,10 +225,12 @@ header {
 }
 
 .sidebar-navigation ul {
-  margin-left: 45px;
-  list-style: none;
-  padding: 0;
+  margin: 0 auto; /* Center the list */
+  list-style: none; /* Remove bullet points */
+  padding: 0; /* Remove padding */
+  width: fit-content; /* Adjust width to fit content */
 }
+
 .sidebar-navigation li{
   padding: 10px 0;
 }
@@ -523,7 +525,7 @@ header {
     color: #232323;
     font-size: 42px;
     transition: all 0.5s;
-    margin-top: 40px; /* Increase this value */
+    margin-top: 50px; /* Increase this value */
     position: relative; /* Ensure position is set */
     top: 50px; /* Increase this value as needed */
 }
@@ -614,7 +616,7 @@ header {
 
 #featured .item .text-content span {
   display: inline-block;
-  font-size: 13px;
+  font-size: 15px;
   font-weight: 400;
   color: #7a7a7a;
   letter-spacing: 0.5px;
@@ -624,7 +626,7 @@ header {
   top: -50px; /* Adjust this value as needed to bring it up */
   line-height: 1;
   margin-bottom: 20px; /* Adjust if needed */
-  margin-top: 40px; /* Optional: use a small negative value for finer adjustment */
+  margin-top: 20px; /* Optional: use a small negative value for finer adjustment */
   padding: 0; /* Remove padding */
   border: none; /* Remove border */
 }
