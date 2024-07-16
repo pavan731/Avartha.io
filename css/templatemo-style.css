@@ -531,11 +531,11 @@ header {
 }
 
 #featured .owl-nav .owl-prev span {
-    left: 10px; /* Adjust this value to move the previous button right */
+  margin-left: 5px; /* Adjust this value to move the previous button right */
 }
 
 #featured .owl-nav .owl-next span {
-    right: 10px; /* Adjust this value to move the next button right */
+  margin-left: 5px;; /* Adjust this value to move the next button right */
 }
 
 
