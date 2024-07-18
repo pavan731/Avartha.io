@@ -433,8 +433,8 @@ https://templatemo.com/tm-518-sentra
                                         </div>
                                     </div>
                                     <div class="upload-container">
-                                        <input type="file" name="fileToUpload" id="fileToUpload">
-                                        <input type="submit" value="Upload Image" name="submit">
+                                        <!-- <input type="file" name="fileToUpload" id="fileToUpload"> -->
+                                        <input type="submit" value="Upload Image" name="submit" id="upload-button">
                                     </div>
                                 </div>
                                 <div class="controls">
@@ -480,6 +480,23 @@ slider.addEventListener('mouseleave', startSlideShow);
 // Initially show the first slide and start the slideshow
 showSlides();
 startSlideShow();
+
+
+document.getElementById('upload-button').addEventListener('click', function(event) {
+    // Function to check if the user is logged in
+    function isLoggedIn() {
+        // This is a placeholder. Replace with actual login check logic.
+        // For example, check if a cookie or local storage item exists.
+        return !!localStorage.getItem('userLoggedIn');
+    }
+
+    if (!isLoggedIn()) {
+        // Prevent the form from submitting
+        event.preventDefault();
+        // Redirect to the login page
+        window.location.href = 'auth/login.html';
+    }
+});
 
                 </script>
                 
